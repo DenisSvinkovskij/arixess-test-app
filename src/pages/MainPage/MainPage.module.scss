@@ -1,0 +1,92 @@
+.container {
+  max-width: 100%;
+  display: flex;
+  gap: 40px;
+}
+
+.filtersContainer {
+  flex-grow: 1;
+  text-align: start;
+}
+.filterTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  color: #121212;
+  margin-bottom: 20px;
+}
+.usersListContainer {
+  flex-grow: 1;
+  text-align: start;
+  max-width: 55%;
+}
+.usersListTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  color: #121212;
+  margin-bottom: 20px;
+}
+
+.paginationContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.paginationButtons {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.paginationBtn {
+  border: solid 1px;
+  padding: 8px 18px;
+  margin: 0;
+  text-decoration: none;
+  background: #fff;
+  font-family: sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 24px;
+  transition: all 250ms;
+  &.active {
+    border: #52228c solid 1px;
+    color: #52228c;
+    background: #ecd3fa;
+  }
+  &:hover {
+    border: #52228c solid 1px;
+    color: #52228c;
+    background: #ecd3fa;
+  }
+}
+.perPageSelect {
+  padding: 5px;
+  border-radius: 12px;
+  border: 1px solid #121212;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+}
+
+.listItem {
+  margin-bottom: 20px;
+}
+
+.arrowPrev {
+  width: 12px;
+  margin-right: 5px;
+  transform: rotate(-90deg);
+}
+.arrowNext {
+  width: 12px;
+  margin-left: 5px;
+  transform: rotate(90deg);
+}

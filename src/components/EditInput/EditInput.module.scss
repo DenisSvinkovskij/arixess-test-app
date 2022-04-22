@@ -1,0 +1,19 @@
+.inputWrapper {
+  width: 100%;
+  display: flex;
+}
+.input {
+  padding: 14px;
+  border: 1px solid #121212;
+  flex-grow: 1;
+  border-radius: 12px 0px 0px 12px;
+}
+.button {
+  padding: 14px 30px;
+  color: #fff;
+  border: 1px solid #121212;
+  background: #52228c;
+  border-radius: 0px 12px 12px 0px;
+  width: 100px;
+  flex-shrink: 0;
+}

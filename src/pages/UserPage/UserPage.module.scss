@@ -1,0 +1,51 @@
+.container {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.navContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.arrowBack {
+  width: 12px;
+  margin-right: 5px;
+  transform: rotate(-90deg);
+  fill: white;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 30px;
+  color: #fff;
+  background: #52228c;
+  border-radius: 12px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.infoContainer {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  grid-gap: 30px;
+}
+.mainInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.editContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
